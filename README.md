@@ -2,7 +2,7 @@
 <h2>Holography setup controler with Ethernet connectivity and JSON API via MQTT protocol</h2>
 <br />
 <p align="center"> <img src="/Hardware/Controler_3.jpg" width="600" title="Overview"> </p> <br /><br />
-<p align="center"> <img src="/Software/Dashboard_Job_UI.jpg" width="600" title="Overview"> </p> <br /><br />
+<p align="center"> <img src="/Software/NodeRed Dashboard/Dashboard_Job_UI.jpg" width="600" title="Overview"> </p> <br /><br />
 
 <br />
 <h4>Brief description</h4>
@@ -35,6 +35,6 @@ Before compiling the code and flashing it onto the µC, make sure you have chang
 <p align="center"> <img src="/Hardware/Controler_1.jpg" width="600" title="Overview"> </p> <br /><br />
 <p align="center"> <img src="/Hardware/Controler_2.jpg" width="600" title="Overview"> </p> <br /><br />
 <p align="center"> <img src="/Software/Dashboard_Job_ControlPanel.jpg" width="600" title="Overview"> </p> <br /><br />
-<p align="center"> <img src="/Software/Dashboard_Lasers_ControlPanel.jpg" width="600" title="Overview"> </p> <br /><br />
-<p align="center"> <img src="/Software/Dashboard_Lasers_UI.jpg" width="600" title="Overview"> </p> <br /><br />
+<p align="center"> <img src="/Software/NodeRed Dashboard/Dashboard_Lasers_ControlPanel.jpg" width="600" title="Overview"> </p> <br /><br />
+<p align="center"> <img src="/Software/NodeRed Dashboard/Dashboard_Lasers_UI.jpg" width="600" title="Overview"> </p> <br /><br />
 
