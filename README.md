@@ -8,6 +8,7 @@
 <h4>Brief description</h4>
 <p>HoloLab is an Arduino based controler for holographic recordings.<br />
 It manages the shutters (hence exposure times) of up to three individual lasers with 0.1sec resolution.<br />
+It also measures and broadcasts over MQTT the temperatures from two DS18B20 OneWire sensors for the monitoring of a water-cooled breadboard and of the ambient air.<br />
 The laser shutters can be manually operated (via push buttons) or by software via a web interface (a NodeRed dashboard).<br />
 HoloLab connects to an MQTT server located on the LAN and a JSON API gives control to its functionalities.<br />
 A NodeRed Dashboard enables the remote controling of the laser shutters over programmable durations. Each job (a holography recording) full parameters can be saved/loaded on/from file.<br />
@@ -18,6 +19,7 @@ Additional control functionalities such as vibration monitoring during recording
 <ul>
 <li>Arduino Mega (Atmega2560 16MHz µC) + Ethernet shield 2 + 4 Relays shield</li>
 <li>Control of up to three laser suhtters (bi-stable solenoids)</li>
+<li>Monitoring of two temperature sensors</li>
 <li>Web user interface to control/monitor recordings and save/load each setup parameters</li>
 </ul>
 </p><br />
@@ -29,6 +31,7 @@ Before compiling the code and flashing it onto the µC, make sure you have chang
 <li>MAC address of the board</li>
 <li>IP address of the MQTT broker</li>
 <li>Credentials to log into the MQTT broker</li>
+<li>Unique IDs of the two DS18B20 temperature sensors</li>
 </ul>
 </p><br />
 
